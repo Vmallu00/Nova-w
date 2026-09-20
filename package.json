@@ -1,0 +1,19 @@
+{
+  "name": "fakepixel-multi-bot-manager",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Multi-bot FakePixel SkyBlock AFK manager with Railway web panel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mineflayer": "^4.31.0",
+    "vec3": "^0.1.10"
+  }
+}
