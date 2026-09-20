@@ -1,7 +1,7 @@
 "use strict";
 
 const crypto = require("crypto");
-const { FakePixelBot } = require("./fakepixel-bot");
+const FakePixelBot = require('./fakepixel-bot');
 
 class BotManager {
   constructor(database) {
